@@ -1,0 +1,21 @@
+User-agent: * 
+Disallow: /download
+Disallow: /virtualvolunteering/signup1
+Disallow: /virtualvolunteering/signup2
+Disallow: /virtualvolunteering/signup3
+Disallow: /virtualvolunteering/signup4
+Disallow: /virtualvolunteering/signup5
+Disallow: /virtualvolunteering/signup6
+Disallow: /virtualvolunteering/signup7
+Disallow: /virtualvolunteering/signup8
+Disallow: /virtualvolunteering/submit1
+Disallow: /virtualvolunteering/submit2
+Disallow: /virtualvolunteering/submit3
+Disallow: /virtualvolunteering/submit4
+Disallow: /virtualvolunteering/submit5
+Disallow: /virtualvolunteering/submit6
+Disallow: /virtualvolunteering/submit7
+Disallow: /virtualvolunteering/submit8
+
+# Sitemap files
+Sitemap: https://www.teameverest.ngo/sitemap.xml
