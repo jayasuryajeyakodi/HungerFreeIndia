@@ -1,0 +1,48 @@
+.heroTextHeading {
+  color: #ffd65b;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+
+.heroTextBody {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.heroButton {
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  border-radius: 0 !important;
+  font-size: 1.2rem !important;
+  background: #ffd65b !important;
+  color: #030201 !important;
+  font-weight: 300 !important;
+  transition: all 0.3s;
+}
+
+.heroButton:hover {
+  color: #ffd65b !important;
+  background: #030201 !important;
+}
+
+.carouselImage {
+  position: relative;
+}
+.hopeImage {
+  margin-top: 50px;
+}
+
+.carouselImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
