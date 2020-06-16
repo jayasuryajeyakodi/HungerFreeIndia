@@ -34,7 +34,7 @@
   position: relative;
 }
 .hopeImage {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .carouselImage::before {
