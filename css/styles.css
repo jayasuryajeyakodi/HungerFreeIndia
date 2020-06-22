@@ -46,10 +46,18 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+.donate-body-contents{
 
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
 .account-card {
   
-  margin: 0px 15%;
+  
   padding: 1rem;
   box-shadow:  0px 0px 5px rgb(255, 238, 0);
   
@@ -60,4 +68,34 @@
   border:0;
   color: #030303;
   border-collapse: collapse;
+}
+.donate-img{
+  height: 250px;
+  width: 300px;
+  
+  
+  object-fit: scale-down;
+
+}
+.donate-img img{
+  height: 100%;
+  width: 100%;
+  
+} 
+@media only screen and (max-width:780px){
+  .donate-body-contents{
+    
+   display: block;
+   margin:40% 10%;
+   
+    
+  }
+  .donate-img{
+    height: 200px;
+    width: 250px;
+    
+    margin:30px auto;
+    
+  
+  }
 }

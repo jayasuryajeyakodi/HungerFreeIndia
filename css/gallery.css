@@ -1,6 +1,6 @@
 body {
   padding: 0px;
-  margin: 5px;
+  margin: 0px;
 
   box-sizing: border-box;
 }
@@ -93,6 +93,13 @@ main {
 }
 
 @media screen and (max-width: 800px) {
+  main{
+    margin-top: 40%;
+  }
+  .galleryHeader{
+    display: block;
+    
+  }
   .container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -101,6 +108,10 @@ main {
     grid-column: span 1;
   }
   .size-2 {
+    grid-row: span 4;
+    grid-column: span 4;
+  }
+  .size-1-2 {
     grid-row: span 4;
     grid-column: span 4;
   }
