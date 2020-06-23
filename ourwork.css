@@ -1,5 +1,5 @@
 .cardContainer {
-    margin: 0px 150px;
+    margin: 50px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -58,5 +58,5 @@
   margin-top: 10px;
   max-width: 300px;
 
-  margin-bottom: 150px;
+  margin: 70px 0px;
 }
