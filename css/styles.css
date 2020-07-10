@@ -49,56 +49,85 @@
 
 /*donate.html*/
 
-.donate-body-contents{
-
-  margin: 5%;
+.donate-header {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 6rem;
+  padding: 20px 16px;
+}
+.donate-to {
+  font-family: Poppins, sans-serif;
+  color: rgb(58, 58, 58);
+  font-size: 40px;
+  font-weight: 400;
+  font-weight: bold;
+  padding-left: 16px;
+}
+.qrcode {
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
+}
+.gpay div {
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  text-align: center;
+}
+.donate-body-contents {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-  
+  align-items: flex-start;
 }
 .account-card {
-  
-  
   padding: 1rem;
-  box-shadow:  0px 0px 5px rgb(255, 238, 0);
-  
+  box-shadow: 0px 0px 5px rgb(255, 238, 0);
 }
 
-.account-card table,.account-card table td {
-  
-  border:0;
-  color: #030303;
+.account-card table,
+.account-card table td {
+  font-size: 20px;
+  border: 0;
+  color: #292929;
   border-collapse: collapse;
 }
-.donate-img{
+.donate-img {
   height: 250px;
   width: 300px;
-  
-  
   object-fit: scale-down;
-
 }
-.donate-img img{
+.donate-img img {
   height: 100%;
   width: 100%;
-  
-} 
-@media only screen and (max-width:780px){
-  .donate-body-contents{
-    
-   display: block;
-   margin:40% 10%;
-   
-    
+}
+
+@media only screen and (max-width: 780px) {
+  .donate-header {
+    margin-top: 30%;
+    font-size: 40px;
+    line-height: normal;
   }
-  .donate-img{
+  .donate-to{
+    font-size:30px;
+  }
+  .gpay {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+  }
+  .donate-body-contents {
+    display: block;
+    margin: 0% 10%;
+    padding-bottom: 16px;
+  }
+  .account-card {
+    margin-top: 5%;
+  }
+  .donate-img {
     height: 200px;
-    width: 250px;
-    
-    margin:30px auto;
-    
-  
+    width: 200px;
   }
 }
