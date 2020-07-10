@@ -50,15 +50,16 @@
 /*donate.html*/
 
 .donate-header {
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 600;
   line-height: 6rem;
   padding: 20px 16px;
+  color: rgb(22, 22, 22);
 }
 .donate-to {
   font-family: Poppins, sans-serif;
-  color: rgb(58, 58, 58);
-  font-size: 40px;
+  color: rgb(51, 51, 51);
+  font-size: 30px;
   font-weight: 400;
   font-weight: bold;
   padding-left: 16px;
@@ -68,66 +69,40 @@
   width: 200px;
   object-fit: scale-down;
 }
-.gpay div {
+
+.donate-body-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   font-size: 20px;
   color: rgb(51, 51, 51);
   font-weight: 600;
   text-align: center;
 }
-.donate-body-contents {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-}
 .account-card {
-  padding: 1rem;
-  box-shadow: 0px 0px 5px rgb(255, 238, 0);
+  padding: 16px;
+  box-shadow: 0px 0px 5px #ffd65b;
+  border-radius: 5px;
 }
-
 .account-card table,
 .account-card table td {
-  font-size: 20px;
+  text-align: left;
   border: 0;
-  color: #292929;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0.5px;
   border-collapse: collapse;
 }
-.donate-img {
-  height: 250px;
-  width: 300px;
-  object-fit: scale-down;
-}
-.donate-img img {
-  height: 100%;
-  width: 100%;
-}
-
 @media only screen and (max-width: 780px) {
   .donate-header {
     margin-top: 30%;
     font-size: 40px;
     line-height: normal;
   }
-  .donate-to{
-    font-size:30px;
-  }
-  .gpay {
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
-    color: rgb(51, 51, 51);
-    font-weight: 600;
-  }
   .donate-body-contents {
+    font-size: 18px;
     display: block;
     margin: 0% 10%;
     padding-bottom: 16px;
-  }
-  .account-card {
-    margin-top: 5%;
-  }
-  .donate-img {
-    height: 200px;
-    width: 200px;
   }
 }
