@@ -49,24 +49,20 @@
 
 /*donate.html*/
 
-.donate-header {
-  font-size: 75px;
-  font-weight: 600;
-  line-height: 6rem;
-  padding: 20px 16px;
-  color: rgb(22, 22, 22);
+.donate-quote {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px 16px;
+  margin-top: 35px;
+  color: rgb(75, 75, 75);
+  text-align: center;
 }
 .donate-to {
   font-family: Poppins, sans-serif;
   color: rgb(51, 51, 51);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
-  padding-left: 16px;
-}
-.qrcode {
-  height: 200px;
-  width: 200px;
-  object-fit: scale-down;
+  text-align: center;
 }
 
 .donate-body-contents {
@@ -74,10 +70,30 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(51, 51, 51);
   font-weight: 600;
   text-align: center;
+  padding: 0px 50px;
+}
+.gpay {
+  width: 100px;
+  display: block;
+  margin: auto;
+  padding: 12px;
+}
+
+.qrcode {
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
+}
+.mobile{
+  padding: 16px;
+  text-align: left;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 .account-card {
   padding: 16px;
@@ -91,17 +107,25 @@
   color: rgb(51, 51, 51);
   letter-spacing: 0.5px;
   border-collapse: collapse;
+  padding: 5px;
 }
 @media only screen and (max-width: 780px) {
-  .donate-header {
-    margin-top: 30%;
-    font-size: 40px;
-    line-height: normal;
+  .donate-quote {
+    font-size: 16px;
   }
   .donate-body-contents {
     font-size: 18px;
     display: block;
-    margin: 0% 10%;
+    margin: 0;
     padding-bottom: 16px;
+  }
+  .donate-to {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 45% 0% 5% 0%;
+  }
+  .account-card{
+  margin-top: 5%;
   }
 }
