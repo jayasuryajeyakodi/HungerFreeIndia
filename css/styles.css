@@ -49,56 +49,83 @@
 
 /*donate.html*/
 
-.donate-body-contents{
+.donate-quote {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px 16px;
+  margin-top: 35px;
+  color: rgb(75, 75, 75);
+  text-align: center;
+}
+.donate-to {
+  font-family: Poppins, sans-serif;
+  color: rgb(51, 51, 51);
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
 
-  margin: 5%;
+.donate-body-contents {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-  
+  align-items: center;
+  font-size: 25px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  text-align: center;
+  padding: 0px 50px;
+}
+.gpay {
+  width: 100px;
+  display: block;
+  margin: auto;
+  padding: 12px;
+}
+
+.qrcode {
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
+}
+.mobile{
+  padding: 16px;
+  text-align: left;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 .account-card {
-  
-  
-  padding: 1rem;
-  box-shadow:  0px 0px 5px rgb(255, 238, 0);
-  
+  padding: 16px;
+  box-shadow: 0px 0px 5px #ffd65b;
+  border-radius: 5px;
 }
-
-.account-card table,.account-card table td {
-  
-  border:0;
-  color: #030303;
+.account-card table,
+.account-card table td {
+  text-align: left;
+  border: 0;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0.5px;
   border-collapse: collapse;
+  padding: 5px;
 }
-.donate-img{
-  height: 250px;
-  width: 300px;
-  
-  
-  object-fit: scale-down;
-
-}
-.donate-img img{
-  height: 100%;
-  width: 100%;
-  
-} 
-@media only screen and (max-width:780px){
-  .donate-body-contents{
-    
-   display: block;
-   margin:40% 10%;
-   
-    
+@media only screen and (max-width: 780px) {
+  .donate-quote {
+    font-size: 16px;
   }
-  .donate-img{
-    height: 200px;
-    width: 250px;
-    
-    margin:30px auto;
-    
-  
+  .donate-body-contents {
+    font-size: 18px;
+    display: block;
+    margin: 0;
+    padding-bottom: 16px;
+  }
+  .donate-to {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 45% 0% 5% 0%;
+  }
+  .account-card{
+  margin-top: 5%;
   }
 }
